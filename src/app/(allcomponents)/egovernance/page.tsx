@@ -19,9 +19,11 @@ export default function Egovernance() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80"
+                src="/imgs/img66.png"
                 className="w-full object-cover h-[50vh] md:h-[60vh] lg:h-[80vh]"
                 alt="Office building"
+                width={259}
+                height={1000}
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center p-6 md:p-10 lg:p-16">
                 <div className="max-w-4xl mx-auto">
@@ -57,9 +59,11 @@ export default function Egovernance() {
               </div>
               <div className="flex justify-center md:justify-end">
                 <Image
-                  src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/imgs/img66.png"
                   alt="Business analytics"
                   className="rounded-lg shadow-xl w-full max-w-md"
+                  width={259}
+                  height={1000}
                 />
               </div>
             </div>
@@ -173,9 +177,11 @@ export default function Egovernance() {
               </div>
               <div className="flex justify-center md:justify-end">
                 <Image
-                  src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/imgs/img66.png"
                   alt="Business team"
                   className="rounded-lg shadow-xl w-full max-w-md"
+                  width={259}
+                  height={1000}
                 />
               </div>
             </div>
@@ -188,9 +194,11 @@ export default function Egovernance() {
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div className="flex justify-center md:justify-start">
                 <Image
-                  src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/imgs/img66.png"
                   alt="Contact us"
                   className="rounded-lg shadow-xl w-full max-w-md"
+                  width={259}
+                  height={1000}
                 />
               </div>
               <div className="text-center md:text-left">

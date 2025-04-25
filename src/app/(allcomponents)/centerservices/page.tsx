@@ -26,7 +26,7 @@ export default function Centerservices() {
               height={1000}
             />
             <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-center sm:items-start p-4 sm:p-10 text-white">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center sm:text-left lg:absolute lg:top-[3%] lg:left-[27%] sm:absolute sm:top-[37%] sm:left-1/4 sm:transform sm:-translate-x-1/4">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-center sm:text-left lg:absolute lg:top-[34%] lg:left-[27%] sm:absolute sm:top-[37%] sm:left-1/4 sm:transform sm:-translate-x-1/4">
                 Contact Center Services
               </h1>
               <span className="block w-16 sm:w-20 h-1 bg-blue-600 mt-2 sm:mt-0 sm:absolute sm:top-1/2 sm:left-[19%]"></span>

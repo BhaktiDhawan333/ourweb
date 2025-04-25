@@ -14,9 +14,11 @@ export default function Justtawk() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1"
+                src="/imgs/img66.png"
                 className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] object-cover"
                 alt="Call Center"
+                width={259}
+                height={1000}
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center p-4 sm:p-6 md:p-10">
                 <div className="max-w-4xl mx-auto text-center">
@@ -53,9 +55,11 @@ export default function Justtawk() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Image
-                src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1"
+                src="/imgs/img66.png"
                 alt="Setup Process"
                 className="rounded-lg shadow-xl w-full max-w-md"
+                width={259}
+                height={1000}
               />
             </div>
           </div>
@@ -67,9 +71,11 @@ export default function Justtawk() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="flex justify-center md:justify-start">
                 <Image
-                  src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1"
+                  src="/imgs/img66.png"
                   alt="Services"
                   className="rounded-lg shadow-xl w-full max-w-md"
+                  width={259}
+                  height={1000}
                 />
               </div>
               <div>
@@ -129,9 +135,11 @@ export default function Justtawk() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Image
-                src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1"
+                src="/imgs/img66.png"
                 alt="Why Choose Us"
                 className="rounded-lg shadow-xl w-full max-w-md"
+                width={259}
+                height={1000}
               />
             </div>
           </div>
@@ -141,9 +149,11 @@ export default function Justtawk() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="relative rounded-3xl overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-1.2.1"
+              src="/imgs/img66.png"
               alt="CTA Background"
               className="absolute inset-0 w-full h-full object-cover"
+              width={259}
+              height={1000}
             />
             <div className="relative bg-black bg-opacity-50 p-8 sm:p-12 md:p-16">
               <div className="max-w-2xl">

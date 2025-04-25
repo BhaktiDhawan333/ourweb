@@ -39,9 +39,11 @@ export default function Blogs() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1"
+              src="/imgs/img66.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Blog Header"
+              width={259}
+              height={1000}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
               <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl  lg:absolute lg:top-[40%] lg:left-[30%] font-semibold text-white mb-4">
@@ -73,6 +75,8 @@ export default function Blogs() {
                       src={blog.img}
                       alt={blog.title}
                       className="w-full h-full object-cover"
+                      width={259}
+                      height={1000}
                     />
                   </div>
                   <div className="p-6">

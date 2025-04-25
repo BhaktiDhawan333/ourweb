@@ -26,9 +26,11 @@ export default function Ourpresence() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1"
+              src="/imgs/img66.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Global Presence"
+              width={259}
+              height={1000}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-white text-center mb-4">
@@ -55,9 +57,11 @@ export default function Ourpresence() {
 
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1589519160732-57fc498494f8?ixlib=rb-1.2.1"
+                src="/imgs/img66.png"
                 alt="World Map"
                 className="w-full rounded-xl shadow-lg"
+                width={259}
+                height={1000}
               />
             </div>
           </div>
@@ -77,6 +81,8 @@ export default function Ourpresence() {
                       src={place.src}
                       alt={place.name}
                       className="w-full h-full object-cover"
+                      width={259}
+                      height={1000}
                     />
                   </div>
                   <div className="p-4">

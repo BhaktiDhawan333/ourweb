@@ -84,9 +84,11 @@ export default function Whyus() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1"
+              src="/imgs/img66.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Office Team"
+              width={259}
+              height={1000}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center p-4 sm:p-6 md:p-10">
               <div className="container mx-auto px-4">
@@ -129,8 +131,10 @@ export default function Whyus() {
               </div>
               <div>
                 <Image
-                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1"
+                  src="/imgs/img66.png"
                   alt="Overview"
+                  width={500}
+                  height={1000}
                   className="rounded-lg shadow-xl"
                 />
               </div>
@@ -144,9 +148,11 @@ export default function Whyus() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <Image
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1"
+                  src="/imgs/img66.png"
                   alt="Mission"
                   className="rounded-lg shadow-xl"
+                  width={500}
+                  height={1000}
                 />
               </div>
               <div className="space-y-6">

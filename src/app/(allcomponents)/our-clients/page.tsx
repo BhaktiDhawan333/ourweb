@@ -12,9 +12,11 @@ export default function Ourclients() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="https://images.unsplash.com/photo-1556761175-4b46a572b786?ixlib=rb-1.2.1"
+              src="/imgs/img66.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Our Clients"
+              width={259}
+              height={1000}
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-white mb-4">

@@ -88,6 +88,8 @@ export default function Homepage() {
                 src={slide.image}
                 className="w-full h-full object-cover"
                 alt={slide.title}
+                width={259}
+                height={1000}
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-2 sm:p-6 md:p-10 text-white">
                 <div className="max-w-xl">

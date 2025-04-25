@@ -26,16 +26,16 @@ export default function Ourservices() {
               height={1000}
             />
             <div className="absolute inset-0 flex flex-col justify-center items-center text-center p-4 sm:p-6 md:p-8 text-white">
-              <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-4xl font-bold mb-4 md:max-w-lg max-w-screen-md text-left lg:absolute lg:top-[42%] lg:left-[36%] sm:my-2">
+              <h1 className="text-3xl sm:text-3xl md:text-5xl lg:text-4xl font-bold mb-4 md:max-w-lg max-w-screen-md text-left lg:absolute lg:top-[42%] lg:left-[36%] sm:my-2">
                 Shaping CX through AI and Human Synergy
               </h1>
-              <span className="block w-16 sm:w-20 h-1 bg-blue-600 mb-6 sm:absolute sm:top-[47%] sm:left-[17%] lg:absolute lg:top-[52%] lg:left-[36%] sm:my-8"></span>
-              <p className="text-sm sm:text-base md:text-lg lg:text-sm text-justify lg:absolute lg:top-[54%] lg:left-[36%]  sm:my-8 max-w-md md:max-w-lg">
+              <span className="block w-20 sm:w-20 h-1 bg-blue-600 mb-10 absolute top-[52%] left-[5%] sm:absolute sm:top-[47%] sm:left-[17%] lg:absolute lg:top-[52%] lg:left-[36%] sm:my-8"></span>
+              <p className="text-sm sm:text-base md:text-lg lg:text-sm text-justify mt-2 lg:absolute lg:top-[54%] lg:left-[36%] sm:my-8 max-w-md md:max-w-lg">
                 Let us take your business to the next level with more than 100
                 years of cumulative industry experience, cutting-edge tech, and
                 personalized CX.
               </p>
-              <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 sm:top-[69%] sm:left-[17%]  rounded-xl text-sm sm:text-base lg:absolute lg:top-[67%] lg:left-[36%]">
+              <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 absolute top-[69%] left-[5%] sm:top-[69%] sm:left-[17%]  rounded-xl text-sm sm:text-base lg:absolute lg:top-[67%] lg:left-[36%]">
                 Get Started Today
               </button>
             </div>

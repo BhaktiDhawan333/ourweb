@@ -20,9 +20,11 @@ export default function Aiproducts() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3"
+                src="/imgs/img66.png"
                 className="w-full h-[50vh] sm:h-[40vh] md:h-[45vh] lg:h-[80vh] object-cover"
                 alt="AI Technology"
+                width={259}
+                height={1000}
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4 sm:p-6 md:p-10">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-white text-center">
@@ -49,9 +51,11 @@ export default function Aiproducts() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Image
-                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3"
+                src="/imgs/img66.png"
                 alt="AI Innovation"
                 className="rounded-lg shadow-xl w-full max-w-md"
+                width={259}
+                height={1000}
               />
             </div>
           </div>
@@ -63,9 +67,11 @@ export default function Aiproducts() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="flex justify-center md:justify-start">
                 <Image
-                  src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3"
+                  src="/imgs/img66.png"
                   alt="AI Technology"
                   className="rounded-lg shadow-xl w-full max-w-md"
+                  width={259}
+                  height={1000}
                 />
               </div>
               <div className="text-center md:text-left">

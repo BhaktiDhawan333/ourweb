@@ -84,9 +84,11 @@ export default function Industries() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1"
+                src="/imgs/img66.png"
                 className="w-full object-cover h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh]"
                 alt="Business sectors"
+                width={259}
+                height={1000}
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4 sm:p-6 md:p-10">
                 <div className="max-w-4xl mx-auto text-center">
