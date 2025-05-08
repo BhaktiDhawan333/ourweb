@@ -89,8 +89,8 @@ export function Footer() {
                 />
               </div>
               <p className="text-sm text-gray-600 mb-4 text-center sm:text-left">
-                TechInTask Business Solutions, Gomati Galaxy City, Ayodhya
-                bypass Road, Near Ayodhya Square, Bhopal, Madhya Pradesh 462041
+                Ayodhya bypass Road, Near Ayodhya Square, Bhopal, Madhya Pradesh
+                462041
               </p>
               <div className="flex flex-col sm:flex-row gap-2 max-w-xs mx-auto sm:mx-0">
                 <Input

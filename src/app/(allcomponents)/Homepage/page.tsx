@@ -19,11 +19,7 @@ const images = [
   "/imgs/iso1.png",
   "/imgs/iso2.png",
   "/imgs/iso4.png",
-  "/imgs/iso7.png",
-  "/imgs/iso5.png",
   "/imgs/iso6.png",
-  "/imgs/iso7.png",
-  "/imgs/iso1.png",
 ];
 
 const slides = [
@@ -324,12 +320,12 @@ export default function Homepage() {
                 </div>
 
                 {/* Heading */}
-                <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
+                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
                   Enhanced CX for every stage of Customer Lifecycle
                 </h3>
 
                 {/* Paragraph */}
-                <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 text-left">
+                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
                   At Technotask, our CX services and expertise leverage
                   operational insights to address the challenges of contact
                   centers and exceed customer expectations.
@@ -337,7 +333,7 @@ export default function Homepage() {
 
                 {/* Button */}
                 <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-xs sm:text-sm rounded hover:bg-blue-600">
+                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
                     Explore CX Services {">"}
                   </button>
                 </div>
@@ -355,12 +351,12 @@ export default function Homepage() {
                 </div>
 
                 {/* Heading */}
-                <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
+                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
                   Revolutionising global CX through Gen-AI-powered solutions.
                 </h3>
 
                 {/* Paragraph */}
-                <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 text-left">
+                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
                   A blend of Gen-AI with human expertise allows us to provide
                   unmatched services at a scale. We offer efficiency packed with
                   agility and commitment.
@@ -368,7 +364,7 @@ export default function Homepage() {
 
                 {/* Button */}
                 <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-xs sm:text-sm rounded hover:bg-blue-600">
+                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
                     Our Gen-AI Solutions {">"}
                   </button>
                 </div>
@@ -389,12 +385,12 @@ export default function Homepage() {
                 </div>
 
                 {/* Heading */}
-                <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
+                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
                   People-Centric Approach
                 </h3>
 
                 {/* Paragraph */}
-                <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 text-left">
+                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
                   We embrace a vibrant mix of cultures, backgrounds, and
                   geographies, fostering an open-door policy for direct
                   communication with upper management. Our workforce, with 50%
@@ -405,7 +401,7 @@ export default function Homepage() {
 
                 {/* Button */}
                 <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-xs sm:text-sm rounded hover:bg-blue-600">
+                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
                     Learn more {">"}
                   </button>
                 </div>
@@ -423,12 +419,12 @@ export default function Homepage() {
                 </div>
 
                 {/* Heading */}
-                <h3 className="text-sm sm:text-base font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
+                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
                   Transformed over 40 businesses with advanced CX strategies.
                 </h3>
 
                 {/* Paragraph */}
-                <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4 text-left">
+                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
                   Since our inception in March 2020, we have served global
                   brands in 48 Lines of business in more than 13 industries and
                   boosted their transition to becoming unicorns & soonicorns.
@@ -436,7 +432,7 @@ export default function Homepage() {
 
                 {/* Button */}
                 <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-xs sm:text-sm rounded hover:bg-blue-600">
+                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
                     Our Success Stories {">"}
                   </button>
                 </div>
@@ -450,7 +446,7 @@ export default function Homepage() {
       <div className="px-4 py-4 sm:py-6">
         <div className="max-w-6xl mx-auto">
           <Image
-            src="/imgs/arrowimg.png"
+            src="/imgs/ofc1.webp"
             alt="Process flow"
             className="hover:opacity-90 border border-gray-200 rounded p-1 w-full h-auto"
             width={920}
@@ -521,8 +517,8 @@ export default function Homepage() {
       </div>
 
       {/* Partner Logos Carousel */}
-      <div className="px-4 py-4 sm:py-6">
-        <div className="max-w-screen-lg mx-auto overflow-hidden">
+      <div className="px-4 py-4 sm:py-6 ">
+        <div className="max-w-screen-sm mx-auto overflow-hidden">
           <div className="whitespace-nowrap my-4 sm:my-10">
             <div className="inline-flex animate-scroll">
               {images.map((src, index) => (
@@ -530,7 +526,7 @@ export default function Homepage() {
                   key={index}
                   className="w-20 h-20 sm:w-32 sm:h-32 relative mx-2 flex-shrink-0 flex flex-col items-center"
                 >
-                  <div className="relative w-16 h-16 sm:w-24 sm:h-24">
+                  <div className="relative w-80 h-80 sm:w-24 sm:h-24">
                     <Image
                       src={src}
                       alt={`Partner ${index + 1}`}
@@ -548,8 +544,7 @@ export default function Homepage() {
         </div>
       </div>
 
-      {/* Testimonials Section - Responsive Card Layout */}
-      <div className="px-4 py-6 sm:py-10">
+      {/* <div className="px-4 py-6 sm:py-10">
         <div className="max-w-6xl mx-auto">
           <div className="flex justify-center mb-6">
             <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800">
@@ -557,9 +552,7 @@ export default function Homepage() {
             </h2>
           </div>
 
-          {/* Testimonial Cards - Grid for responsive layout */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            {/* First Card */}
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
               <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4">
                 &quot;First of all, congratulations and thanks to you for all
@@ -575,7 +568,6 @@ export default function Homepage() {
               <div className="text-xs text-gray-500">Co-Founder & CEO</div>
             </div>
 
-            {/* Second Card */}
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md">
               <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4">
                 &quot;Your support and efforts have certainly contributed to our
@@ -587,7 +579,6 @@ export default function Homepage() {
               <div className="text-xs text-gray-500">E-Commerce Giant</div>
             </div>
 
-            {/* Third Card */}
             <div className="bg-white p-4 sm:p-6 rounded-lg shadow-md sm:col-span-2 lg:col-span-1">
               <p className="text-xs sm:text-sm text-gray-600 mb-3 sm:mb-4">
                 &quot;The significant rise in productivity from the operations
@@ -601,7 +592,7 @@ export default function Homepage() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

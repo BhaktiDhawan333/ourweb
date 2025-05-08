@@ -75,13 +75,16 @@ export default function Navbar() {
 
   return (
     <div className="sticky top-0 z-50">
-      <nav className="bg-white p-4 border-b border-gray-300 shadow-sm">
+      <nav className="bg-white p-2 border-b border-gray-300 shadow-sm">
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
-          <div className="text-blue-600 font-bold text-2xl md:text-3xl">
-            <Link href="/" className="flex items-center">
-              Logo
-            </Link>
+          <div className="font-bold text-5xl md:text-3xl">
+            <img
+              src="/imgs/logo1.png"
+              alt="Logo"
+              className="ml-5 h-8 w-8 md:h-15 md:w-15 rounded-full object-cover"
+            />
+            <h4 className="text-xs mt-2">Business Solution</h4>
           </div>
 
           {/* Mobile Menu Button */}
