@@ -80,11 +80,10 @@ export default function Navbar() {
           {/* Logo */}
           <div className="font-bold text-5xl md:text-3xl">
             <img
-              src="/imgs/logo1.png"
+              src="/imgs/sitelogo.png"
               alt="Logo"
-              className="ml-5 h-8 w-8 md:h-15 md:w-15 rounded-full object-cover"
+              className="ml-2 h-8 w-8 md:h-15 md:w-16 object-cover"
             />
-            <h4 className="text-xs mt-2">Business Solution</h4>
           </div>
 
           {/* Mobile Menu Button */}
