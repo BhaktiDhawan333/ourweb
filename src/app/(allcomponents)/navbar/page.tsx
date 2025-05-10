@@ -80,9 +80,9 @@ export default function Navbar() {
           {/* Logo */}
           <div className="font-bold text-5xl md:text-3xl">
             <img
-              src="/imgs/sitelogo.png"
+              src="imgs/logo11.png"
               alt="Logo"
-              className="ml-2 h-8 w-8 md:h-15 md:w-16 object-cover"
+              className="ml-2 h-6 w-8 md:h-15 md:w-16 object-cover"
             />
           </div>
 

@@ -2,9 +2,10 @@
 import React, { useState } from "react";
 import { Footer } from "../../../defaultpage/footer/page";
 import Image from "../../../../node_modules/next/image";
-import slide1 from "../../../../public/imgs/img6.png";
-import slide2 from "../../../../public/imgs/img2.png";
-import slide3 from "../../../../public/imgs/img3.png";
+import slide1 from "../../../../public/imgs/firstslider.png";
+import slide2 from "../../../../public/imgs/scndslider.png";
+import slide3 from "../../../../public/imgs/thirdslider.png";
+import slide4 from "../../../../public/imgs/fourthslider.png";
 import {
   ArrowRight,
   Headphones,
@@ -14,6 +15,8 @@ import {
   MessageSquare,
 } from "lucide-react";
 import Navbar from "../navbar/page";
+import Header from "../Heading/page";
+import ServiceGrid from "../ServiceGrid/page";
 
 const images = [
   "/imgs/iso1.png",
@@ -24,22 +27,39 @@ const images = [
 
 const slides = [
   {
+    image: slide1, // Replace with your image URL
+    title: "",
+    description: "",
+    button: {
+      isVisible: false,
+    },
+  },
+  {
     image: slide2, // Replace with your image URL
     title: "Pioneering Excellence Across Every Industry",
     description:
-      "Technotask offers cutting-edge solutions for more than 14 industries including E-governance, E-commerce, Fintech, and SaaS. ",
-  },
-  {
-    image: slide1, // Replace with your image URL
-    title: "Gen-AI Powered Human-Driven Customer Experience",
-    description:
-      "Seamless integration of human expertise with Gen-AI capabilities to boost efficiency, and productivity for enhanced customer experience. ",
+      "Oraltask offers cutting-edge solutions for more industries including E-governance, E-commerce, Fintech, and SaaS. ",
+    button: {
+      isVisible: true,
+    },
   },
   {
     image: slide3, // Replace with your image URL
+    title: "Gen-AI Powered Human-Driven Customer Experience",
+    description:
+      "Seamless integration of human expertise with Gen-AI capabilities to boost efficiency, and productivity for enhanced customer experience. ",
+    button: {
+      isVisible: true,
+    },
+  },
+  {
+    image: slide4, // Replace with your image URL
     title: "Carefully curated for the Digital Start-up Ecosystem ",
     description:
       "Harness a Century's worth of cumulative expertise powered-Customer Lifecycle Management Advisory.",
+    button: {
+      isVisible: true,
+    },
   },
 ];
 
@@ -87,7 +107,7 @@ export default function Homepage() {
                 width={259}
                 height={1000}
               />
-              <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-2 sm:p-6 md:p-10 text-white">
+              <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-start p-2 sm:p-6 md:p-10 text-white">
                 <div className="max-w-xl">
                   <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
                     {slide.title}
@@ -95,12 +115,14 @@ export default function Homepage() {
                   <p className="text-sm sm:text-base md:text-lg my-1 sm:my-4">
                     {slide.description}
                   </p>
-                  <a
-                    href="/our-services"
-                    className="bg-blue-500 px-3 py-1 sm:px-6 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-bold hover:bg-yellow-600 inline-block mt-1 sm:mt-2"
-                  >
-                    Explore
-                  </a>
+                  {slide?.button?.isVisible && (
+                    <a
+                      href="/our-services"
+                      className="bg-blue-500 px-3 py-1 sm:px-6 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-bold hover:bg-yellow-600 inline-block mt-1 sm:mt-2"
+                    >
+                      Explore
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -124,44 +146,30 @@ export default function Homepage() {
         </button>
       </div>
 
-      {/* Stats Section - Reduced padding on mobile */}
-      <div className="py-2 sm:py-2 md:py-8 px-1 sm:px-4">
-        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 gap-1 sm:gap-0 max-w-screen-lg mx-auto">
-          {/* Stats Items - Reduced padding on mobile */}
-          <div className="flex flex-col items-center justify-center border-b sm:border-b-0 sm:border-r border-gray-300 px-1 sm:px-4 py-2 sm:py-8">
-            <div className="text-xl sm:text-3xl font-bold">3+</div>
-            <p className="text-center text-xs sm:text-sm mt-1 sm:mt-2">
-              Present in 3+ continents around the globe
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center border-b sm:border-b-0 sm:border-r border-gray-300 px-1 sm:px-4 py-2 sm:py-8">
-            <div className="text-xl sm:text-3xl font-bold">5,462+</div>
-            <p className="text-center text-xs sm:text-sm mt-1 sm:mt-2">
-              Our incredible Workforce
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center border-b sm:border-b-0 sm:border-r border-gray-300 px-1 sm:px-4 py-2 sm:py-8">
-            <div className="text-xl sm:text-3xl font-bold">16+</div>
-            <p className="text-center text-xs sm:text-sm mt-1 sm:mt-2">
-              Languages
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center border-b sm:border-b-0 sm:border-r border-gray-300 px-1 sm:px-4 py-2 sm:py-8">
-            <div className="text-xl sm:text-3xl font-bold">40+</div>
-            <p className="text-center text-xs sm:text-sm mt-1 sm:mt-2">
-              Client Served
-            </p>
-          </div>
-
-          <div className="flex flex-col items-center justify-center px-1 sm:px-4 py-2 sm:py-8">
-            <div className="text-xl sm:text-3xl font-bold">13+</div>
-            <p className="text-center text-xs sm:text-sm mt-1 sm:mt-2">
-              Industries Served
-            </p>
-          </div>
+      <div className="py-8 px-4">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 max-w-screen-lg mx-auto text-center">
+          {[
+            { value: "3+", text: "Present in 3+ continents around the globe" },
+            { value: "5,462+", text: "Our incredible Workforce" },
+            { value: "16+", text: "Languages" },
+            { value: "40+", text: "Client Served" },
+            { value: "13+", text: "Industries Served" },
+          ].map((item, index) => (
+            <div
+              key={index}
+              className={`flex flex-col items-center justify-center px-4 py-6 border-gray-300 ${
+                index !== 4 ? "border-r" : ""
+              }`}
+              style={{ minHeight: "200px" }} // Ensures equal height boxes
+            >
+              <div className="text-5xl font-bold leading-tight">
+                {item.value}
+              </div>
+              <p className="text-gray-400 text-xl sm:text-base mt-2 leading-snug">
+                {item.text}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
 
@@ -175,7 +183,7 @@ export default function Homepage() {
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left">
             <p className="text-sm text-gray-600 text-justify mx-auto max-w-lg">
-              At Technotask, our people-centric culture inspires continuous
+              At Oraltask, our people-centric culture inspires continuous
               learning, growth, and authenticity. We offer exceptional growth
               opportunities, resulting in engaged teams, outstanding client
               service, and a relentless focus on innovation.
@@ -188,7 +196,7 @@ export default function Homepage() {
       <div className="flex justify-center py-4 sm:py-8 px-4">
         <div className="w-full max-w-6xl">
           <Image
-            src="/imgs/ofc.png"
+            src="/imgs/ofc1.webp"
             alt="Our Office"
             className="hover:opacity-90 border border-gray-200 rounded p-1 w-full h-auto"
             width={920}
@@ -216,7 +224,7 @@ export default function Homepage() {
                 </h3>
                 <p className="text-sm text-gray-600 mb-4 sm:mb-6">
                   Enhance your customer satisfaction and streamline operations
-                  with Technotask&apos;s expert contact center services.
+                  with Oraltask&apos;s expert contact center services.
                 </p>
                 <button className="flex items-center text-orange-500 hover:text-orange-600 font-medium">
                   Get Started <ArrowRight className="ml-2 h-4 w-4" />
@@ -253,7 +261,7 @@ export default function Homepage() {
                   E-Governance
                 </h3>
                 <p className="text-sm text-gray-600 mb-4 sm:mb-6">
-                  At Technotask, we proudly manage e-governance for multiple
+                  At Oraltask, we proudly manage e-governance for multiple
                   states in India, streamlining administrative processes.
                 </p>
                 <button className="flex items-center text-green-500 hover:text-green-600 font-medium">
@@ -275,7 +283,7 @@ export default function Homepage() {
                 </h3>
                 <p className="text-sm text-gray-600 mb-4 sm:mb-6">
                   Reduce your Cost-to-serve by up to 25% by deploying
-                  Technotask&apos;s Gen-AI-powered solutions.
+                  Oraltask&apos;s Gen-AI-powered solutions.
                 </p>
                 <button className="flex items-center text-purple-500 hover:text-purple-600 font-medium">
                   Get Started <ArrowRight className="ml-2 h-4 w-4" />
@@ -306,151 +314,18 @@ export default function Homepage() {
         </div>
       </main>
 
-      {/* Feature boxes - Fixed responsive layout */}
-      <div className="container mx-auto px-4 py-6 sm:py-8">
-        {/* First Row */}
-        <div className="flex flex-col lg:flex-row mb-4">
-          {/* First Box */}
-          <div className="w-full lg:w-1/2 p-2 sm:p-4 border-2 border-gray-100 mb-4 lg:mb-0">
-            <div className="w-full sm:max-w-md mx-auto lg:ml-auto lg:mr-0 p-2 sm:p-4">
-              <div className="bg-white p-4 sm:p-6">
-                {/* Icon */}
-                <div className="flex items-start mb-3 sm:mb-4">
-                  <Headphones className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500 mr-3" />
-                </div>
-
-                {/* Heading */}
-                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
-                  Enhanced CX for every stage of Customer Lifecycle
-                </h3>
-
-                {/* Paragraph */}
-                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
-                  At Technotask, our CX services and expertise leverage
-                  operational insights to address the challenges of contact
-                  centers and exceed customer expectations.
-                </p>
-
-                {/* Button */}
-                <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
-                    Explore CX Services {">"}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Second Box */}
-          <div className="w-full lg:w-1/2 p-2 sm:p-4 border-2 border-gray-100">
-            <div className="w-full sm:max-w-md mx-auto lg:ml-0 lg:mr-auto p-2 sm:p-4">
-              <div className="bg-white p-4 sm:p-6">
-                {/* Icon */}
-                <div className="flex items-start mb-3 sm:mb-4">
-                  <Headphones className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500 mr-3" />
-                </div>
-
-                {/* Heading */}
-                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
-                  Revolutionising global CX through Gen-AI-powered solutions.
-                </h3>
-
-                {/* Paragraph */}
-                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
-                  A blend of Gen-AI with human expertise allows us to provide
-                  unmatched services at a scale. We offer efficiency packed with
-                  agility and commitment.
-                </p>
-
-                {/* Button */}
-                <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
-                    Our Gen-AI Solutions {">"}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Second Row */}
-        <div className="flex flex-col lg:flex-row">
-          {/* First Box */}
-          <div className="w-full lg:w-1/2 p-2 sm:p-4 border-2 border-gray-100 mb-4 lg:mb-0">
-            <div className="w-full sm:max-w-md mx-auto lg:ml-auto lg:mr-0 p-2 sm:p-4">
-              <div className="bg-white p-4 sm:p-6">
-                {/* Icon */}
-                <div className="flex items-start mb-3 sm:mb-4">
-                  <Headphones className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500 mr-3" />
-                </div>
-
-                {/* Heading */}
-                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
-                  People-Centric Approach
-                </h3>
-
-                {/* Paragraph */}
-                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
-                  We embrace a vibrant mix of cultures, backgrounds, and
-                  geographies, fostering an open-door policy for direct
-                  communication with upper management. Our workforce, with 50%
-                  women, exemplifies our dedication towards women&apos;s
-                  empowerment. This diversity enriches our culture and fuels
-                  innovation.
-                </p>
-
-                {/* Button */}
-                <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
-                    Learn more {">"}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Second Box */}
-          <div className="w-full lg:w-1/2 p-2 sm:p-4 border-2 border-gray-100">
-            <div className="w-full sm:max-w-md mx-auto lg:ml-0 lg:mr-auto p-2 sm:p-4">
-              <div className="bg-white p-4 sm:p-6">
-                {/* Icon */}
-                <div className="flex items-start mb-3 sm:mb-4">
-                  <Headphones className="h-6 w-6 sm:h-8 sm:w-8 text-orange-500 mr-3" />
-                </div>
-
-                {/* Heading */}
-                <h3 className="text-[10px] sm:text-sm font-semibold text-gray-800 mb-2 sm:mb-4 text-left">
-                  Transformed over 40 businesses with advanced CX strategies.
-                </h3>
-
-                {/* Paragraph */}
-                <p className="text-[8px] sm:text-xs text-gray-600 mb-3 sm:mb-4 text-left">
-                  Since our inception in March 2020, we have served global
-                  brands in 48 Lines of business in more than 13 industries and
-                  boosted their transition to becoming unicorns & soonicorns.
-                </p>
-
-                {/* Button */}
-                <div className="text-left">
-                  <button className="px-3 py-1 sm:px-4 sm:py-2 bg-blue-500 text-white text-[10px] sm:text-xs rounded hover:bg-blue-600">
-                    Our Success Stories {">"}
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header />
+      <ServiceGrid />
 
       {/* Arrow Image - Responsive */}
       <div className="px-4 py-4 sm:py-6">
         <div className="max-w-6xl mx-auto">
           <Image
-            src="/imgs/ofc1.webp"
+            src="/imgs/ractangleofc.png"
             alt="Process flow"
             className="hover:opacity-90 border border-gray-200 rounded p-1 w-full h-auto"
             width={920}
-            height={150}
+            height={20}
           />
         </div>
       </div>

@@ -28,7 +28,7 @@ export default function Egovernance() {
               <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center p-6 md:p-10 lg:p-16">
                 <div className="max-w-4xl mx-auto">
                   <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-white mb-4">
-                    Transform E-Governance with Technotask
+                    Transform E-Governance with Oraltask
                     <span className="block w-20 h-1 bg-blue-600 mt-4"></span>
                   </h1>
                   <p className="text-sm md:text-base lg:text-lg text-white/90 max-w-2xl">
@@ -77,8 +77,8 @@ export default function Egovernance() {
               Our Flagship E-Governance Projects
             </h2>
             <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
-              Discover how Technotask is reshaping public administration with
-              our impactful projects
+              Discover how Oraltask is reshaping public administration with our
+              impactful projects
             </p>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -126,7 +126,7 @@ export default function Egovernance() {
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div>
                 <h2 className="text-3xl md:text-4xl font-semibold mb-8">
-                  Why Choose Technotask for E-Governance?
+                  Why Choose Oraltask for E-Governance?
                 </h2>
                 <Accordion type="single" collapsible className="space-y-4">
                   <AccordionItem
@@ -203,14 +203,14 @@ export default function Egovernance() {
               </div>
               <div className="text-center md:text-left">
                 <h2 className="text-3xl md:text-4xl font-semibold mb-6">
-                  Partner with Technotask for Your Next E-Governance Project
+                  Partner with Oraltask for Your Next E-Governance Project
                 </h2>
                 <p className="text-gray-600 mb-4">
-                  Join hands with Technotask to embark on a transformative
-                  journey in E-Governance. Whether you&apos;re looking to
-                  enhance service delivery, streamline operations, or improve
-                  citizen engagement, we have the expertise and dedication to
-                  make it happen.
+                  Join hands with Oraltask to embark on a transformative journey
+                  in E-Governance. Whether you&apos;re looking to enhance
+                  service delivery, streamline operations, or improve citizen
+                  engagement, we have the expertise and dedication to make it
+                  happen.
                 </p>
                 <p className="text-gray-600 mb-8">
                   Contact us today to explore how our tailored E-Governance

@@ -6,7 +6,7 @@ import Navbar from "../navbar/page";
 const blogs = [
   {
     img: "/imgs/iso1.png",
-    title: "Empowering Growth: The Inspiring Journey of mPokket and Technotask",
+    title: "Empowering Growth: The Inspiring Journey of mPokket and Oraltask",
   },
   {
     img: "/imgs/iso2.png",

@@ -108,7 +108,7 @@ export default function Industries() {
         <div className="bg-gray-100 py-16 sm:py-24">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl sm:text-4xl font-semibold text-center mb-4">
-              Engage, Enhance, Thrive with Technotask
+              Engage, Enhance, Thrive with Oraltask
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 max-w-7xl mx-auto">

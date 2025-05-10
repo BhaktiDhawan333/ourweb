@@ -45,7 +45,7 @@ export default function Advisoryservices() {
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-gray-600">
               Transform your customer interactions into enduring relationships
-              with Technotask&apos;s comprehensive Customer Lifecycle Management
+              with Oraltask&apos;s comprehensive Customer Lifecycle Management
               services.
             </p>
           </div>
@@ -79,12 +79,11 @@ export default function Advisoryservices() {
               Integrated Administrative Solutions
             </h2>
             <p className="text-xs sm:text-sm md:text-base text-gray-600">
-              At Technotask, we seamlessly integrate administrative solutions
-              into your contact center operations. Our approach streamlines
-              tasks such as IT system administration and partner management,
-              ensuring smooth operations and enhanced data security. Focus on
-              delivering exceptional customer support while we handle the
-              details.
+              At Oraltask, we seamlessly integrate administrative solutions into
+              your contact center operations. Our approach streamlines tasks
+              such as IT system administration and partner management, ensuring
+              smooth operations and enhanced data security. Focus on delivering
+              exceptional customer support while we handle the details.
             </p>
           </div>
         </div>

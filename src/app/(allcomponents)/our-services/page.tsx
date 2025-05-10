@@ -51,7 +51,7 @@ export default function Ourservices() {
               Elevating Customer Connections
             </h1>
             <p className="text-base md:text-xs text-gray-400">
-              At Technotask, we design agile, innovation-focused solutions
+              At Oraltask, we design agile, innovation-focused solutions
               customized to your requirements. Our skilled, technology-enhanced
               team members seamlessly integrate as authentic extensions of your
               in-house teams.
@@ -91,7 +91,7 @@ export default function Ourservices() {
                 </h3>
                 <p className="text-gray-600 mb-6">
                   Enhance your customer satisfaction and streamline operations
-                  with Technotask&apos;s expert contact center services.
+                  with Oraltask&apos;s expert contact center services.
                 </p>
                 <button className="flex items-center text-orange-500 hover:text-orange-600 font-medium">
                   Get Started <ArrowRight className="ml-2 h-4 w-4" />
@@ -128,7 +128,7 @@ export default function Ourservices() {
                   E-Governance
                 </h3>
                 <p className="text-gray-600 mb-6">
-                  At Technotask, we proudly manage e-governance for multiple
+                  At Oraltask, we proudly manage e-governance for multiple
                   states in India, streamlining administrative processes.
                 </p>
                 <button className="flex items-center text-green-500 hover:text-green-600 font-medium">
@@ -150,7 +150,7 @@ export default function Ourservices() {
                 </h3>
                 <p className="text-gray-600 mb-6">
                   Reduce your Cost-to-serve by up to 25% by deploying
-                  Technotask&apos;s Gen-AI-powered solutions.
+                  Oraltask&apos;s Gen-AI-powered solutions.
                 </p>
                 <button className="flex items-center text-purple-500 hover:text-purple-600 font-medium">
                   Get Started <ArrowRight className="ml-2 h-4 w-4" />

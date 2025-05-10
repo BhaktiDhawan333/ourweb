@@ -121,9 +121,9 @@ export default function Whyus() {
                   Overview
                 </h2>
                 <p className="text-gray-600 mb-6">
-                  Technotask is an AI-driven Contact Center service provider
-                  that offers a comprehensive suite of solutions designed to
-                  enhance the customer experience for businesses worldwide.
+                  Oraltask is an AI-driven Contact Center service provider that
+                  offers a comprehensive suite of solutions designed to enhance
+                  the customer experience for businesses worldwide.
                 </p>
                 <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
                   Know more

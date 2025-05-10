@@ -44,8 +44,8 @@ export default function Centerservices() {
               Tailored Solutions, Global Reach
             </h2>
             <p className="text-sm sm:text-base md:text-base lg:text-base text-gray-600">
-              At Technotask, our custom CX solutions are founded on extensive
-              team expertise, agility, and cutting-edge tech. This combination
+              At Oraltask, our custom CX solutions are founded on extensive team
+              expertise, agility, and cutting-edge tech. This combination
               enables us to anticipate customer needs and consistently exceed
               their expectations.
             </p>
@@ -84,7 +84,7 @@ export default function Centerservices() {
               Global Support
             </h2>
             <p className="text-sm sm:text-base md:text-base lg:text-base text-gray-600">
-              With strategically positioned offices across the globe, Technotask
+              With strategically positioned offices across the globe, Oraltask
               offers round-the-clock support, multilingual services, and an
               in-depth understanding of diverse cultural nuances, all aimed at
               boosting customer satisfaction.

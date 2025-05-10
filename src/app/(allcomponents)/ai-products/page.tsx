@@ -46,7 +46,7 @@ export default function Aiproducts() {
               <p className="text-gray-600">
                 Reimagine Customer Experience with Gen-AI! Efficiency,
                 cost-effectiveness, and innovation at your service with
-                Technotask.
+                Oraltask.
               </p>
             </div>
             <div className="flex justify-center md:justify-end">
@@ -79,8 +79,8 @@ export default function Aiproducts() {
                   Gen-AI Era, featuring Human expertise
                 </h2>
                 <p className="text-gray-600 mb-4">
-                  Technotask transforms customer experiences in contact centers
-                  by efficiently handling 90% of Level 1 queries, reducing
+                  Oraltask transforms customer experiences in contact centers by
+                  efficiently handling 90% of Level 1 queries, reducing
                   Cost-to-Serve by 23%.
                 </p>
                 <p className="text-gray-600">
@@ -98,7 +98,7 @@ export default function Aiproducts() {
             Our AI Solutions
           </h2>
           <p className="text-gray-600 text-center mb-12">
-            Discover how Technotask is reshaping customer experience with our
+            Discover how Oraltask is reshaping customer experience with our
             innovative AI products
           </p>
 
