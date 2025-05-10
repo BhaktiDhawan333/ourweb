@@ -59,4 +59,4 @@ const ServiceCard = ({
   );
 };
 
-export default ServiceCard;
+export { ServiceCard };

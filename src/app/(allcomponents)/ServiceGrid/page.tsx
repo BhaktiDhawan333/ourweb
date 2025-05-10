@@ -1,5 +1,5 @@
 import React from "react";
-import ServiceCard from "../ServiceCard/page";
+import { ServiceCard } from "../ServiceCard/page";
 import { Users, Brain, UserRound, BarChart3 } from "lucide-react";
 
 const services = [
