@@ -2,11 +2,10 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { DivideIcon as LucideIcon } from "lucide-react";
 import { motion } from "framer-motion";
 
 interface ServiceCardProps {
-  icon: LucideIcon;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
   title: string;
   description: string;
   buttonText: string;

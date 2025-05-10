@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/navigation-menu";
 import { Menu, X, Search } from "lucide-react";
 import Link from "../../../../node_modules/next/link";
+import Image from "next/image";
 
 const aboutuspaths: { title: string; href: string }[] = [
   {
@@ -79,10 +80,12 @@ export default function Navbar() {
         <div className="container mx-auto flex items-center justify-between">
           {/* Logo */}
           <div className="font-bold text-5xl md:text-3xl">
-            <img
+            <Image
               src="imgs/logo11.png"
-              alt="Logo"
+              alt="Example"
               className="ml-2 h-6 w-8 md:h-15 md:w-16 object-cover"
+              width={500}
+              height={300}
             />
           </div>
 

@@ -16,7 +16,7 @@ import {
 } from "lucide-react";
 import Navbar from "../navbar/page";
 import Header from "../Heading/page";
-import ServiceGrid from "../ServiceGrid/page";
+import ServiceGrid from "../ServiceGrid/ServiceGrid";
 
 const images = [
   "/imgs/iso1.png",
