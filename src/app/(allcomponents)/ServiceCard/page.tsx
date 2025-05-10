@@ -20,13 +20,13 @@ const gradients = [
   "from-pink-500/10 to-pink-600/10",
 ];
 
-const ServiceCard = ({
+export default function ServiceCard({
   icon: Icon,
   title,
   description,
   buttonText,
   index,
-}: ServiceCardProps) => {
+}: ServiceCardProps) {
   return (
     <motion.div
       className={`group relative flex flex-col p-5 rounded-lg bg-gradient-to-br ${gradients[index]} border border-gray-200/20 hover:border-gray-300/30 transition-all duration-300`}
@@ -57,6 +57,4 @@ const ServiceCard = ({
       </Button>
     </motion.div>
   );
-};
-
-export { ServiceCard };
+}
