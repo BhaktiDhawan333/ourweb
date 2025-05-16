@@ -13,11 +13,11 @@ import OtherDetails from "@/components/formsections/other-details";
 import ReferenceDetails from "@/components/formsections/reference-details";
 
 const CandidateForm = () => {
-  const [formData, setFormData] = useState({});
+  // const [formData, setFormData] = useState({});
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    console.log("Form submitted:");
     // Here you would typically send the data to your backend
   };
 
@@ -32,10 +32,10 @@ const CandidateForm = () => {
       <ITAssetsDetails />
       <OtherDetails />
       <ReferenceDetails />
-      
+
       <div className="flex justify-center mt-8">
-        <Button 
-          type="submit" 
+        <Button
+          type="submit"
           className="px-8 py-2 bg-[#a35dc1] hover:bg-[#8f4db0] text-white rounded-full transition-all duration-300 font-medium"
         >
           Submit
