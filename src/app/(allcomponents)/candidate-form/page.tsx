@@ -1,6 +1,4 @@
 "use client";
-
-import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import PersonalDetails from "@/components/formsections/personal-details";
 import PositionDetails from "@/components/formsections/position-details";
