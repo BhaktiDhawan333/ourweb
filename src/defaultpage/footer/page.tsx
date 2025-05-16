@@ -291,7 +291,7 @@ export function Footer() {
           {/* Footer Bottom - Improved mobile layout */}
           <div className="pt-6 sm:pt-8 border-t border-gray-200 flex flex-col sm:flex-row justify-between items-center gap-4">
             <p className="text-xs sm:text-sm text-gray-600 order-2 sm:order-1">
-              © 2024, TECHINTASK LLC.
+              © 2025, ORALTASK LLC.
             </p>
 
             <div className="flex gap-3 sm:gap-4 order-1 sm:order-2 flex-wrap justify-center">

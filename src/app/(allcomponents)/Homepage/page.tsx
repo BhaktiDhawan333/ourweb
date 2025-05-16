@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import { Footer } from "../../../defaultpage/footer/page";
 import Image from "../../../../node_modules/next/image";
-import slide1 from "../../../../public/imgs/firstslider.png";
-import slide2 from "../../../../public/imgs/scndslider.png";
+import slide1 from "../../../../public/imgs/img1100.png";
+import slide2 from "../../../../public/imgs/secondslider.png";
 import slide3 from "../../../../public/imgs/thirdslider.png";
 import slide4 from "../../../../public/imgs/fourthslider.png";
 import {
@@ -93,40 +93,47 @@ export default function Homepage() {
     <div>
       <Navbar />
       {/* Hero Slider Section with responsive controls */}
-      <div className="relative w-full h-[50vh] sm:h-[60vh] md:h-[40vh] lg:h-screen overflow-hidden">
-        <div
-          className="flex transition-transform duration-700 ease-in-out"
-          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
-        >
-          {slides.map((slide, index) => (
-            <div key={index} className="w-full flex-shrink-0 relative h-full">
-              <Image
-                src={slide.image}
-                className="w-full h-full object-cover"
-                alt={slide.title}
-                width={259}
-                height={1000}
-              />
-              <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-start p-2 sm:p-6 md:p-10 text-white">
-                <div className="max-w-xl">
-                  <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
-                    {slide.title}
-                  </h1>
-                  <p className="text-sm sm:text-base md:text-lg my-1 sm:my-4">
-                    {slide.description}
-                  </p>
-                  {slide?.button?.isVisible && (
-                    <a
-                      href="/our-services"
-                      className="bg-blue-500 px-3 py-1 sm:px-6 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-bold hover:bg-yellow-600 inline-block mt-1 sm:mt-2"
-                    >
-                      Explore
-                    </a>
-                  )}
+      <div className="relative w-full h-[80vh] sm:h-[80vh] md:h-[80vh] lg:h-[500h] overflow-hidden">
+        <div className="relative w-full h-[90vh] overflow-hidden">
+          <div
+            className="flex transition-transform duration-700 ease-in-out h-full"
+            style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+          >
+            {slides.map((slide, index) => (
+              <div key={index} className="w-full flex-shrink-0 relative h-full">
+                {/* Image fills the full slide and is cropped properly */}
+                <div className="absolute inset-0">
+                  <Image
+                    src={slide.image}
+                    alt={slide.title}
+                    fill
+                    sizes="100vw"
+                    className="object-cover"
+                  />
+                </div>
+
+                {/* Content Overlay */}
+                <div className="absolute inset-0 bg-opacity-50 flex flex-col justify-center items-start p-2 sm:p-6 md:p-10 text-white">
+                  <div className="max-w-xl">
+                    <h1 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold">
+                      {slide.title}
+                    </h1>
+                    <p className="text-sm sm:text-base md:text-lg my-1 sm:my-4">
+                      {slide.description}
+                    </p>
+                    {slide?.button?.isVisible && (
+                      <a
+                        href="/our-services"
+                        className="bg-blue-500 px-3 py-1 sm:px-6 sm:py-3 rounded-full text-sm sm:text-base md:text-lg font-bold hover:bg-yellow-600 inline-block mt-1 sm:mt-2"
+                      >
+                        Explore
+                      </a>
+                    )}
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
 
         {/* Navigation Buttons - Reduced size on mobile */}
