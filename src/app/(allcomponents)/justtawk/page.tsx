@@ -14,7 +14,7 @@ export default function Justtawk() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh] object-cover"
                 alt="Call Center"
                 width={259}
@@ -55,7 +55,7 @@ export default function Justtawk() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 alt="Setup Process"
                 className="rounded-lg shadow-xl w-full max-w-md"
                 width={259}
@@ -71,7 +71,7 @@ export default function Justtawk() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="flex justify-center md:justify-start">
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="Services"
                   className="rounded-lg shadow-xl w-full max-w-md"
                   width={259}
@@ -135,7 +135,7 @@ export default function Justtawk() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 alt="Why Choose Us"
                 className="rounded-lg shadow-xl w-full max-w-md"
                 width={259}
@@ -149,7 +149,7 @@ export default function Justtawk() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
           <div className="relative rounded-3xl overflow-hidden">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               alt="CTA Background"
               className="absolute inset-0 w-full h-full object-cover"
               width={259}

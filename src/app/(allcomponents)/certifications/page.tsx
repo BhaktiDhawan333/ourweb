@@ -6,19 +6,19 @@ import Navbar from "../navbar/page";
 const certifications = [
   {
     title: "ISO 9001:2015",
-    image: "/imgs/img66.png",
+    image: "/imgs/img22.png",
   },
   {
     title: "ISO 27001",
-    image: "/imgs/img66.png",
+    image: "/imgs/img22.png",
   },
   {
     title: "GDPR Compliant",
-    image: "/imgs/img66.png",
+    image: "/imgs/img22.png",
   },
   {
     title: "PCI DSS",
-    image: "/imgs/img66.png",
+    image: "/imgs/img22.png",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function Certifications() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Certifications"
               width={259}

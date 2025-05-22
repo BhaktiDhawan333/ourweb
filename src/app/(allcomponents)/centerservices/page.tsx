@@ -232,7 +232,7 @@ export default function Centerservices() {
           {/* Left Side Image */}
           <div className="flex-1">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               alt="What Sets Us Apart"
               width={240}
               height={240}

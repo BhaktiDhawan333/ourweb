@@ -20,7 +20,7 @@ export default function Aiproducts() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 className="w-full h-[50vh] sm:h-[40vh] md:h-[45vh] lg:h-[80vh] object-cover"
                 alt="AI Technology"
                 width={259}
@@ -51,7 +51,7 @@ export default function Aiproducts() {
             </div>
             <div className="flex justify-center md:justify-end">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 alt="AI Innovation"
                 className="rounded-lg shadow-xl w-full max-w-md"
                 width={259}
@@ -67,7 +67,7 @@ export default function Aiproducts() {
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div className="flex justify-center md:justify-start">
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="AI Technology"
                   className="rounded-lg shadow-xl w-full max-w-md"
                   width={259}

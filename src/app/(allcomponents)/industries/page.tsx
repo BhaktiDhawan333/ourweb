@@ -84,7 +84,7 @@ export default function Industries() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 className="w-full object-cover h-[50vh] sm:h-[60vh] md:h-[70vh] lg:h-[80vh]"
                 alt="Business sectors"
                 width={259}

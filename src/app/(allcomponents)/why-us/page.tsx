@@ -84,7 +84,7 @@ export default function Whyus() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Office Team"
               width={259}
@@ -131,7 +131,7 @@ export default function Whyus() {
               </div>
               <div>
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="Overview"
                   width={500}
                   height={1000}
@@ -148,7 +148,7 @@ export default function Whyus() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="Mission"
                   className="rounded-lg shadow-xl"
                   width={500}

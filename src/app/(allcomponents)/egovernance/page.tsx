@@ -19,7 +19,7 @@ export default function Egovernance() {
           <div className="flex">
             <div className="w-full flex-shrink-0 relative">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 className="w-full object-cover h-[50vh] md:h-[60vh] lg:h-[80vh]"
                 alt="Office building"
                 width={259}
@@ -59,7 +59,7 @@ export default function Egovernance() {
               </div>
               <div className="flex justify-center md:justify-end">
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="Business analytics"
                   className="rounded-lg shadow-xl w-full max-w-md"
                   width={259}
@@ -177,7 +177,7 @@ export default function Egovernance() {
               </div>
               <div className="flex justify-center md:justify-end">
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="Business team"
                   className="rounded-lg shadow-xl w-full max-w-md"
                   width={259}
@@ -194,7 +194,7 @@ export default function Egovernance() {
             <div className="grid md:grid-cols-2 gap-10 items-center">
               <div className="flex justify-center md:justify-start">
                 <Image
-                  src="/imgs/img66.png"
+                  src="/imgs/img22.png"
                   alt="Contact us"
                   className="rounded-lg shadow-xl w-full max-w-md"
                   width={259}

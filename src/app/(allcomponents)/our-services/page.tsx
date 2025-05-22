@@ -19,7 +19,7 @@ export default function Ourservices() {
         <div className="flex transition-transform duration-700 ease-in-out">
           <div className="w-full flex-shrink-0 relative">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               className="w-full object-cover h-[70vh] sm:h-[40vh] md:h-[50vh] lg:h-[90vh]"
               alt=""
               width={2000}

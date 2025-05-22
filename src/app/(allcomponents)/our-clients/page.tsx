@@ -12,7 +12,7 @@ export default function Ourclients() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Our Clients"
               width={259}

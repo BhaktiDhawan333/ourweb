@@ -26,7 +26,7 @@ export default function Ourpresence() {
         <div className="relative w-full">
           <div className="w-full relative">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               className="w-full h-[50vh] sm:h-[60vh] md:h-[70vh] object-cover"
               alt="Global Presence"
               width={259}
@@ -57,7 +57,7 @@ export default function Ourpresence() {
 
             <div className="relative">
               <Image
-                src="/imgs/img66.png"
+                src="/imgs/img22.png"
                 alt="World Map"
                 className="w-full rounded-xl shadow-lg"
                 width={259}

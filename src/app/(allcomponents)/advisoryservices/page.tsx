@@ -12,7 +12,7 @@ export default function Advisoryservices() {
         <div className="flex transition-transform duration-700 ease-in-out">
           <div className="w-full flex-shrink-0 relative">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               className="w-full object-cover h-[40vh] sm:h-[50vh] md:h-[60vh] lg:h-[80vh]"
               alt="Hero image"
               width={2000}
@@ -234,7 +234,7 @@ export default function Advisoryservices() {
           {/* Image */}
           <div className="flex-1 mt-4 lg:mt-0 w-full">
             <Image
-              src="/imgs/img66.png"
+              src="/imgs/img22.png"
               alt="Team members"
               width={500}
               height={500}
