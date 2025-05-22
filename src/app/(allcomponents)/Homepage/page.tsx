@@ -2,10 +2,10 @@
 import React, { useState } from "react";
 import { Footer } from "../../../defaultpage/footer/page";
 import Image from "../../../../node_modules/next/image";
-import slide1 from "../../../../public/imgs/img1100.png";
-import slide2 from "../../../../public/imgs/secondslider.png";
-import slide3 from "../../../../public/imgs/thirdslider.png";
-import slide4 from "../../../../public/imgs/fourthslider.png";
+import slide1 from "../../../../public/imgs/img11.png";
+import slide2 from "../../../../public/imgs/img11.png";
+import slide3 from "../../../../public/imgs/img11.png";
+import slide4 from "../../../../public/imgs/img11.png";
 import {
   ArrowRight,
   Headphones,
